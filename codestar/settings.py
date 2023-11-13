@@ -28,9 +28,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-hiboibrahim-djangoblog-319epf9cnon.ws-eu106.gitpod.io']
+ALLOWED_HOSTS = ['8000-hiboibrahim-djangoblog-319epf9cnon.ws-eu106.gitpod.io',
+'.herokuapp.com'
+]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
